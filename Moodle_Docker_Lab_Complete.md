@@ -353,6 +353,8 @@ Creating moodle_app ... done
 **บันทึกผลการทดลอง 2:**
 <img width="1073" height="175" alt="image" src="https://github.com/user-attachments/assets/2e467342-d698-4b5d-803c-6224067adc21" />
 
+<img width="1084" height="228" alt="image" src="https://github.com/user-attachments/assets/1719c29a-721d-4382-a449-77213431e853" />
+
 
 #### 2.3 ตรวจสอบสถานะ Containers
 
@@ -466,9 +468,8 @@ docker volume inspect moodle-docker_moodledata
 หลังจากบันทึกแล้ว ระบบจะแสดงหน้า **Dashboard** ของระบบ
 
 **บันทึกผลการทดลอง 6:**
-```bash
- รูปหน้า Dashboard 
-```
+<img width="1901" height="986" alt="image" src="https://github.com/user-attachments/assets/91921c82-d7a9-43b6-870b-6e329d8fcf47" />
+
 
 ---
 
@@ -609,9 +610,8 @@ h1 {
 - Favicon: 32x32 px (ICO/PNG)
 
 **บันทึกผลการทดลอง 6-1:**
-```bash
- รูป ผลการปรับแต่ง Theme
-```
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/2d77c9d4-70d0-4865-ae0c-bd825147d7c0" />
+
 ---
 
 ### 6.2 การจัดการ Course Categories และ Courses
