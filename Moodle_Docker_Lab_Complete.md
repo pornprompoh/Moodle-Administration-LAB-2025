@@ -341,14 +341,7 @@ docker-compose up -d
 - `up`: สร้างและเริ่ม containers
 - `-d`: รันในโหมด detached (background)
 
-**หากผลการทำงานถูกต้อง ควรแสดงผลดังนี้:**
-```
-Creating network "moodle-docker_moodle_network" ... done
-Creating volume "moodle-docker_db_data" ... done
-Creating volume "moodle-docker_moodledata" ... done
-Creating moodle_db ... done
-Creating moodle_app ... done
-```
+**ตรวจสอบการทำงานโดยใช้คำสั่ง docker-compose logs -f:**
 
 **บันทึกผลการทดลอง 2:**
 <img width="1073" height="175" alt="image" src="https://github.com/user-attachments/assets/2e467342-d698-4b5d-803c-6224067adc21" />
@@ -530,8 +523,9 @@ docker volume inspect moodle-docker_moodledata
 ```
 SMTP hosts: smtp.gmail.com:587
 SMTP security: TLS
-SMTP username: your-email@gmail.com
+SMTP username: your-email
 SMTP password: your-app-password
+No-reply: your-email
 ```
 
 #### 6.1.5 ตั้งค่า Security
